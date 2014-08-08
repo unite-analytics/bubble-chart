@@ -1,0 +1,3078 @@
+{    "name": "gen",
+    "levels": [
+        {
+            "LevelName": "Total Peacekeeping Disbursement",
+            "CatagoriesIncluded": []
+        },
+        {
+            "LevelName": "Head Quarter vs Field Cost Center",
+            "CatagoriesIncluded": [
+                {
+                    "Name": "HQ Cost Center",
+                    "Id": 1
+                },
+                {
+                    "Name": "Field Cost Center",
+                    "Id": 2
+                }
+            ]
+        },
+        {
+            "LevelName": "HQ Cost Center Disbursements",
+            "CatagoriesIncluded": [
+                {
+                    "Name": "Military and police personnel",
+                    "Id": 11
+                },
+                {
+                    "Name": "Civilian personnel",
+                    "Id": 12
+                },
+                {
+                    "Name": "Operational costs",
+                    "Id": 13
+                },
+                {
+                    "Name": "Pro-rated Costs",
+                    "Id": 14
+                }
+            ]
+        },
+        {
+            "LevelName": "Field Cost Center Disbursements",
+            "CatagoriesIncluded": [
+                {
+                    "Name": "Military and police personnel",
+                    "Id": 21
+                },
+                {
+                    "Name": "Civilian personnel",
+                    "Id": 22
+                },
+                {
+                    "Name": "Operational costs",
+                    "Id": 23
+                },
+                {
+                    "Name": "Pro-rated Costs",
+                    "Id": 24
+                }
+            ]
+        },
+        {
+            "LevelName": "All Subcatagorized Disbursements",
+            "CatagoriesIncluded": [
+                {
+                    "Name": "Military and police personnel",
+                    "Id": 11
+                },
+                {
+                    "Name": "Civilian personnel",
+                    "Id": 12
+                },
+                {
+                    "Name": "Operational costs",
+                    "Id": 13
+                },
+                {
+                    "Name": "Pro-rated Costs",
+                    "Id": 14
+                },
+                {
+                    "Name": "Military and police personnel",
+                    "Id": 21
+                },
+                {
+                    "Name": "Civilian personnel",
+                    "Id": 22
+                },
+                {
+                    "Name": "Operational costs",
+                    "Id": 23
+                },
+                {
+                    "Name": "Pro-rated Costs",
+                    "Id": 24
+                }
+            ]
+        }
+    ],
+    "Children": [
+        {
+            "Name": "HQ Cost Center",
+            "Id": 1,
+            "Children": [
+                {
+                    "Name": "Military and police personnel",
+                    "Id": 11,
+                    "Children": [
+                        {
+                            "Name": "Military Observers",
+                            "Id": 111,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Military Observer",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Military Observers",
+                                    "Disbursement": 1148166.96
+                                },
+                                {
+                                    "Name": "Death and Disability Compensation - Military Observers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Clothing Allowance - Military Observers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rations - Military Observers",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Military Contingents",
+                            "Id": 112,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Military Contingents",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Military Contingents",
+                                    "Disbursement": 86049369.55
+                                },
+                                {
+                                    "Name": "Contingent-owned Equipment: Major Equipment",
+                                    "Disbursement": 197083401.05
+                                },
+                                {
+                                    "Name": "Death and Disability - Military Contingents",
+                                    "Disbursement": 929600
+                                },
+                                {
+                                    "Name": "Freight and Deployment of contingent owned equipment",
+                                    "Disbursement": 17839284.8
+                                },
+                                {
+                                    "Name": "Troop Cost Reimbursement - Military Contingents",
+                                    "Disbursement": 678673010.92
+                                },
+                                {
+                                    "Name": "Daily Allowance - Military Contingents",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Recreational Leave Allowance - Military Contingents",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rations - Military Contingents",
+                                    "Disbursement": 195238.96
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Civilian Police",
+                            "Id": 113,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Civilian Police",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Civilian Police",
+                                    "Disbursement": 2808454.06
+                                },
+                                {
+                                    "Name": "Clothing Allowance - Civilian Police",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Death and Disability Compensation - Civilian Police",
+                                    "Disbursement": 102000
+                                },
+                                {
+                                    "Name": "Rations - Civilian Police",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Formed Police Units",
+                            "Id": 114,
+                            "Children": [
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Formed Police Units",
+                                    "Disbursement": 9381670.38
+                                },
+                                {
+                                    "Name": "Recreational Leave Allowance - Formed Police Units",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rations - Formed Police Units",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Daily Allowance - Formed Police Units",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Formed Police Units Cost Reimbursement",
+                                    "Disbursement": 58520491
+                                },
+                                {
+                                    "Name": "Death and Disability Compensation - Formed Police Units",
+                                    "Disbursement": 294200
+                                },
+                                {
+                                    "Name": "Contingent-owned equipment: Major equipment - Formed Police Units",
+                                    "Disbursement": 19785969.78
+                                },
+                                {
+                                    "Name": "Freight and deployment of contingent-owned equipment-formed Police Units",
+                                    "Disbursement": 3555065.12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Civilian personnel",
+                    "Id": 12,
+                    "Children": [
+                        {
+                            "Name": "International Staff",
+                            "Id": 121,
+                            "Children": [
+                                {
+                                    "Name": "Temporary Posts - Professionals",
+                                    "Disbursement": 162318133.48
+                                },
+                                {
+                                    "Name": "Temporary Posts - Post Adjustment",
+                                    "Disbursement": 146923322.84
+                                },
+                                {
+                                    "Name": "Temporary Posts - General Service",
+                                    "Disbursement": 184638919.43
+                                },
+                                {
+                                    "Name": "Temporary Posts-Personal Transitional Allowance (PTA)",
+                                    "Disbursement": -646473.71
+                                },
+                                {
+                                    "Name": "Temporary Posts Staff Assessment - General Service",
+                                    "Disbursement": -32946531.15
+                                },
+                                {
+                                    "Name": "Temporary Posts Staff Assessment - Professional",
+                                    "Disbursement": -32434690.85
+                                },
+                                {
+                                    "Name": "Night Differential",
+                                    "Disbursement": 28773.14
+                                },
+                                {
+                                    "Name": "Payment of Compensatory Time",
+                                    "Disbursement": 3554.06
+                                },
+                                {
+                                    "Name": "Overtime",
+                                    "Disbursement": 23928.53
+                                },
+                                {
+                                    "Name": "Overtime and Night Differential Staff Assessment - General Service",
+                                    "Disbursement": -10529.03
+                                },
+                                {
+                                    "Name": "Overtime and Night Differential Staff Assessment - Professional",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Dependency Allowances",
+                                    "Disbursement": 16095732.33
+                                },
+                                {
+                                    "Name": "Assignment Allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Representation Allowances",
+                                    "Disbursement": 76244.82
+                                },
+                                {
+                                    "Name": "Hardship and Mobility Allowances",
+                                    "Disbursement": 79906437.51
+                                },
+                                {
+                                    "Name": "Rental Subsidy",
+                                    "Disbursement": -3203608.55
+                                },
+                                {
+                                    "Name": "Hazardous Duty Station Allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Contributions to JSPF",
+                                    "Disbursement": 87748381.16
+                                },
+                                {
+                                    "Name": "International Staff - Non-family duty station hardship entitlement",
+                                    "Disbursement": 50374430.92
+                                },
+                                {
+                                    "Name": "Staff - Education Grants",
+                                    "Disbursement": 38112321.41
+                                },
+                                {
+                                    "Name": "Danger Pay Special Allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Appointment - Assignment Grant",
+                                    "Disbursement": 210617.38
+                                },
+                                {
+                                    "Name": "Other Cost of Appointment",
+                                    "Disbursement": 9465.62
+                                },
+                                {
+                                    "Name": "Special payment (Management Evaluation Unit)",
+                                    "Disbursement": 19490.31
+                                },
+                                {
+                                    "Name": "Special payment (United Nations Dispute Tribunal)",
+                                    "Disbursement": 27351.46
+                                },
+                                {
+                                    "Name": "Special payment (United Nations Appeals Tribunal)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Commutation of Annual Leave",
+                                    "Disbursement": 3193902.69
+                                },
+                                {
+                                    "Name": "Repatriation Grants",
+                                    "Disbursement": 6467670.03
+                                },
+                                {
+                                    "Name": "Termination Indemnities",
+                                    "Disbursement": 1401333.91
+                                },
+                                {
+                                    "Name": "Other Separation Costs",
+                                    "Disbursement": 620137.74
+                                },
+                                {
+                                    "Name": "Separation Staff Assessment - General Service",
+                                    "Disbursement": -872796.25
+                                },
+                                {
+                                    "Name": "Separation Staff Assessment - Professional",
+                                    "Disbursement": -1151103.56
+                                },
+                                {
+                                    "Name": "Peacekeeping Reserve for Compensation Payments - International Staff",
+                                    "Disbursement": 1269884.69
+                                },
+                                {
+                                    "Name": "Special Claims",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Taxi Fares",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Medical Examinations",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Compensation claim for loss or damage of personal effects",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Residential Security measures - GTA",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Mission Subsistence Allowance - International Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Contributions to medical insurance plans",
+                                    "Disbursement": 9705489.95
+                                },
+                                {
+                                    "Name": "After-Service Medical Coverage",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance - Hazardous duty station",
+                                    "Disbursement": 1140807.04
+                                },
+                                {
+                                    "Name": "Reimbursement of Income Taxes - Extrabudgetary Funds",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Ex-gratia Payments - International Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Education Grant Travel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Home Leave Travel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Family Visit Travel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Appointment",
+                                    "Disbursement": 46894.17
+                                },
+                                {
+                                    "Name": "Travel on Interview - Appointment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Competitive Exam",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Separation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Family Evacuation Travel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Transfer",
+                                    "Disbursement": 15064.38
+                                },
+                                {
+                                    "Name": "Travel on Mission Assignment",
+                                    "Disbursement": 202715.19
+                                },
+                                {
+                                    "Name": "Travel on Medical Evacuation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Annual Leave from Designated Duty Stations",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "International Staff - Rest & Recuperation Travel allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Removal of Household Effects - On appointment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance on Shipment of Household Effects - On Appointment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Removal of Household Effects - On separation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance of Household Effects - On separation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Removal of Household Efects - On transfer",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance of Household Effects - On transfer",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Recovery, funeral and other service charges - International staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment Charges - International Staff",
+                                    "Disbursement": 67298076.81
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "National Staff",
+                            "Id": 122,
+                            "Children": [
+                                {
+                                    "Name": "Temporary Posts - General Service - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Temporary Posts - Professional - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - Professional - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff assessment - General Service - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Overtime - General Service - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Dependency Allowance - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Assignment Allowance - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Hazardous Duty Station Allowance - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Contribution to JSPF - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Danger Pay Special Allowance - National staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Commutation of Annual Leave - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Other Separation Costs - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Medical Examinations - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Residential Security Measures - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special Claims - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Peacekeeping Reserve for Compensation Payments - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Contributions to Medical Insurance Plans - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "After-Service Medical Coverage - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance - Hazardous Duty Station",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment (Management Evaluation Unit)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment - UN Dispute Tribunal",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment  UN Appeals Tribunal",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Appointment - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Medical Evacuation - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Recovery, Funeral and other service charges - National staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment Charges - National Staff",
+                                    "Disbursement": 38105675.15
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "United Nations Volunteer",
+                            "Id": 123,
+                            "Children": [
+                                {
+                                    "Name": "Administrative fee - UNV",
+                                    "Disbursement": 107226.37
+                                },
+                                {
+                                    "Name": "Pre-Departure Expenses and Support Staff - UNV",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Volunteer Living Allowance/SIGPLUS - UNV",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Hazard Allowance - UNV",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Resettlement Allowance - UNV",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Repatriation - UNV",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "United Nations Volunteers - Rest & Recuperation Travel allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Recovery, funeral and other service charges - United Nations Volunteer",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "General Temporary Assistance",
+                            "Id": 124,
+                            "Children": [
+                                {
+                                    "Name": "General Temporary Assistance - Salaries",
+                                    "Disbursement": 10947361.43
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - Common Staff Costs",
+                                    "Disbursement": 13903967.06
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - General Service",
+                                    "Disbursement": -517621.24
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - Professional",
+                                    "Disbursement": -1818704.08
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Common staff costs",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff - staff assessment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance-Other Personnel-Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - National-Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Danger Pay Special Allowance - GTA",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Danger pay GTA - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - Intl Personal Transitional Allowance (PTA)",
+                                    "Disbursement": -25099.65
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - MSA",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "International Staff - GTA Non-family duty station hardship allowance",
+                                    "Disbursement": 1601417.93
+                                },
+                                {
+                                    "Name": "International Staff - GTA Rest & Recuperation Travel allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance",
+                                    "Disbursement": 2333840.57
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance-National",
+                                    "Disbursement": 1539058.05
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Operational costs",
+                    "Id": 13,
+                    "Children": [
+                        {
+                            "Name": "General Temporary Assistance",
+                            "Id": 131,
+                            "Children": [
+                                {
+                                    "Name": "General Temporary Assistance - Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - Common Staff Costs",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - General Service",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - Professional",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Common staff costs",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff - staff assessment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance-Other Personnel-Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - National-Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - MSA",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance-National",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Government Provided Personnel",
+                            "Id": 132,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Government Provided Personnel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Assignment/Repatriation - Government Provided Personnel",
+                                    "Disbursement": 145780.52
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Civilian Electoral Observers",
+                            "Id": 133,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Government Provided Personnel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Mission Subsistence Allowance - Civilian Electoral Observers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Assignment/Repatriation - Government Provided Personnel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Assignment/Repatriation - Civilian Electoral Observers",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Consultants",
+                            "Id": 134,
+                            "Children": [
+                                {
+                                    "Name": "Personal Service Fees - Consultants",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Lump-sum Provision - Consultants",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Training Consultants",
+                                    "Disbursement": 114829.55
+                                },
+                                {
+                                    "Name": "Peacekeeping Reserve for Compensation Payments - Consultants",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Assignment/Repatriation Travel and Subsistence Allowance - Consultants",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Official Travel",
+                            "Id": 135,
+                            "Children": [
+                                {
+                                    "Name": "Travel for Consultation and Meetings",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Inspection of Contingents",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Internal Audit",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Procurement",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Reconnaissance/Technical Survey",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Training",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel of Legislative Bodies",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel to Provide Technical Support",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel within Mission",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Other Official Travel",
+                                    "Disbursement": 118581.32
+                                },
+                                {
+                                    "Name": "Travel for Selection and Assistance to Member States - Civilian Police",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Facilities and Infrastructure",
+                            "Id": 136,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Catering",
+                                    "Disbursement": 13734978.95
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Office",
+                                    "Disbursement": 11612371.58
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Electrical",
+                                    "Disbursement": 12471194.36
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Minor Engineering",
+                                    "Disbursement": 8211749.09
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Laundry and Cleaning",
+                                    "Disbursement": 4585195.47
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Tentage",
+                                    "Disbursement": 678795.43
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Accommodation",
+                                    "Disbursement": 2933347.02
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Identification",
+                                    "Disbursement": 40203.15
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Field Defence Stores",
+                                    "Disbursement": 723986.82
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Miscellaneous General Stores",
+                                    "Disbursement": 23657712.44
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Basic fire fighting, fire detection and alarm",
+                                    "Disbursement": 112421.74
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Internet access",
+                                    "Disbursement": 1246498.73
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Cleaning",
+                                    "Disbursement": 7094835.8
+                                },
+                                {
+                                    "Name": "Engineering Technical Support Services - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Security Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Catering Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Laundry, Tailoring",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Liability Insurance - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental of Premises",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Maintenance Supplies - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Cleaning Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Waste Disposal Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Miscellaneous Maintenance and Repair Services - Facilities and Infrastructure",
+                                    "Disbursement": 47281.83
+                                },
+                                {
+                                    "Name": "Grounds Maintenance Services - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Alteration and Renovation - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Construction Services - Facilities and Infrastructures",
+                                    "Disbursement": 375931.35
+                                },
+                                {
+                                    "Name": "Electricity",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Water",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Other Utilities",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Prefabricated Facilities",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Petrol, Oil, Lubricants - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Miscellaneous Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Bridges for Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental of Office Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Spare Parts and Supplies - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Office Furniture",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Office Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Accommodation Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Electrical Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Field Defense Supplies",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Fire Fighting Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Refrigeration equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Fuel Tank and pumps",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Generators",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Security and Safety Equipment",
+                                    "Disbursement": 66236.12
+                                },
+                                {
+                                    "Name": "Acquisition of Water Purification Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Water and Septic Tank",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Aquisition of Field Defense Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Residential Security for Military Observers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Residential Security for Military Staff Officers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Residential Security for UN Police",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Residential Security for Government Provided Personnel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Stationery and Office Supplies",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Sanitary and Cleaning Materials",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Ground Transportation",
+                            "Id": 137,
+                            "Children": [
+                                {
+                                    "Name": "Liability Insurance - Ground Transportation",
+                                    "Disbursement": 2396099.08
+                                },
+                                {
+                                    "Name": "Rental of Vehicles (PK)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Spare Parts - Ground Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Repairs and Maintenance - Ground Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Ambulances",
+                                    "Disbursement": 20990.37
+                                },
+                                {
+                                    "Name": "Acquisition of Buses",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Forklifts and Cargo Handlers",
+                                    "Disbursement": 4594
+                                },
+                                {
+                                    "Name": "Acquisition of Passenger, 4WD, Pickups",
+                                    "Disbursement": 407811.68
+                                },
+                                {
+                                    "Name": "Acquisition of Vehicle Workshop Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Other Vehicles",
+                                    "Disbursement": 81043.96
+                                },
+                                {
+                                    "Name": "Petrol, Oil and Lubricant - Ground Transportation",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Air Transportation",
+                            "Id": 138,
+                            "Children": [
+                                {
+                                    "Name": "Services - Air Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Liability Insurance - Helicopters",
+                                    "Disbursement": 2396877.06
+                                },
+                                {
+                                    "Name": "Liability Insurance - Fixed Wing Aircraft",
+                                    "Disbursement": 452211.44
+                                },
+                                {
+                                    "Name": "Rental and Operation of Fixed-Wing Aircraft",
+                                    "Disbursement": 95397313.2
+                                },
+                                {
+                                    "Name": "Rental and Operation of Helicopters",
+                                    "Disbursement": 269682261.69
+                                },
+                                {
+                                    "Name": "Equipment and Supplies - Air Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Landing Fees and Ground Handling Charges - Air Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Air Crew Subsistence Allowance - Air Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Petrol, Oil, Lubricants - Air Transportation",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Naval Transportation",
+                            "Id": 139,
+                            "Children": [
+                                {
+                                    "Name": "Liability Insurance - Naval Transportation",
+                                    "Disbursement": 39807
+                                },
+                                {
+                                    "Name": "Rental and Operation - Naval Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Spare Parts, Repairs, Maintenance and Supplies - Naval Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Marine Vessels - Naval Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Petrol, Oil, Lubricants - Naval Transportation",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Communications",
+                            "Id": 1310,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Communications",
+                                    "Disbursement": 37050111.44
+                                },
+                                {
+                                    "Name": "Services - Public Information",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental of Communications Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental of Public Information Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Commercial Communications",
+                                    "Disbursement": 12283674.44
+                                },
+                                {
+                                    "Name": "Communications Support Services",
+                                    "Disbursement": 4656895.08
+                                },
+                                {
+                                    "Name": "Maintenance Communications Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Supplies and Maintenance - Public Information",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Public Information Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Communications Equipment",
+                                    "Disbursement": 122673.88
+                                },
+                                {
+                                    "Name": "Spare Parts for Communications Equipment",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Information Technology",
+                            "Id": 1311,
+                            "Children": [
+                                {
+                                    "Name": "Services - IT",
+                                    "Disbursement": 12555585.06
+                                },
+                                {
+                                    "Name": "Rental - IT Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Spare Parts and Supplies - IT Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition, Software Packages",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of IT Equipment",
+                                    "Disbursement": 1894447.39
+                                },
+                                {
+                                    "Name": "IT Licenses, Fees and Rental Software - IT",
+                                    "Disbursement": 10450403.11
+                                },
+                                {
+                                    "Name": "Maintenance and Repair - IT Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "ERP",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Spare Parts for Communications Equipment",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Medical",
+                            "Id": 1312,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Medical",
+                                    "Disbursement": 29768353.24
+                                },
+                                {
+                                    "Name": "Rental of Medical Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Medical Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Clinic, Hospital Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Medical Supplies",
+                                    "Disbursement": 360297.36
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Special Equipment",
+                            "Id": 1313,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Explosive Ordnance Disposal",
+                                    "Disbursement": 1734399.26
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Observation",
+                                    "Disbursement": 13170711.54
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Nuclear, Biological, and Chemical Protection",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Unique Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Binoculars and Observation Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Other Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Mine Detection and Mine Clearing Equipment",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Other Supplies, Services and Equipment",
+                            "Id": 1314,
+                            "Children": [
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - General Service",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Ex-gratia Payments",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "After-Service Medical Coverage",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Training Fees, Supplies and Services",
+                                    "Disbursement": 307557.51
+                                },
+                                {
+                                    "Name": "Conference costs -UN sponsored conferences",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "External Audit",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Haircutting/Barber Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Official Functions",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Other Hospitality",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Insurance",
+                                    "Disbursement": 166361
+                                },
+                                {
+                                    "Name": "Bank Charges",
+                                    "Disbursement": 31067.84
+                                },
+                                {
+                                    "Name": "Miscellaneous Claims and Adjustments",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Other Miscellaneous Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Other Freight and Related Costs",
+                                    "Disbursement": 1067000
+                                },
+                                {
+                                    "Name": "Losses in Cash",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Write-off of Receivables within Delegated Authority",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Write-off of Receivable beyond Delegated Authority",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Other Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Mine Detection and Mine Clearing Services",
+                                    "Disbursement": 38486342.53
+                                },
+                                {
+                                    "Name": "Mine Detection and Mine Clearing Supplies",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Subscriptions, Standing Orders",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Printing and Reproduction",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Operational Maps",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Training Supplies and Exhibits",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Uniforms, Flags, Decals",
+                                    "Disbursement": 387872
+                                },
+                                {
+                                    "Name": "Election Materials",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rations",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Personal Protection Gear",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Welfare - Military Contingents and Formed Police Units",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rations - Other",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Programme Support Costs - UNDP country office cost recovery",
+                                    "Disbursement": 263.55
+                                },
+                                {
+                                    "Name": "Loss on exchange",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Quick-impact Projects",
+                            "Id": 1315,
+                            "Children": [
+                                {
+                                    "Name": "Quick-impact projects",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Pro-rated Costs",
+                    "Id": 14,
+                    "Children": [
+                        {
+                            "Name": "Pro-Rated Costs",
+                            "Id": 141,
+                            "Children": [
+                                {
+                                    "Name": "Prorated share of the cost of staff assessment for UNLB",
+                                    "Disbursement": 6093700
+                                },
+                                {
+                                    "Name": "Prorated share-cost of staff assessment for Peacekeeping operations Support acct",
+                                    "Disbursement": 28802700
+                                },
+                                {
+                                    "Name": "Programme Support Costs - Support Account",
+                                    "Disbursement": 258334100
+                                },
+                                {
+                                    "Name": "Programme Support Costs - UNLB",
+                                    "Disbursement": 9583200
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Field Cost Center",
+            "Id": 2,
+            "Children": [
+                {
+                    "Name": "Military and police personnel",
+                    "Id": 21,
+                    "Children": [
+                        {
+                            "Name": "Military Observers",
+                            "Id": 211,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Military Observer",
+                                    "Disbursement": 70629046.27
+                                },
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Military Observers",
+                                    "Disbursement": 2360054.66
+                                },
+                                {
+                                    "Name": "Death and Disability Compensation - Military Observers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Clothing Allowance - Military Observers",
+                                    "Disbursement": 178967
+                                },
+                                {
+                                    "Name": "Rations - Military Observers",
+                                    "Disbursement": 983831.79
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Military Contingents",
+                            "Id": 212,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Military Contingents",
+                                    "Disbursement": 48568547.5
+                                },
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Military Contingents",
+                                    "Disbursement": 3998401.18
+                                },
+                                {
+                                    "Name": "Contingent-owned Equipment: Major Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Death and Disability - Military Contingents",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Freight and Deployment of contingent owned equipment",
+                                    "Disbursement": 6990190.15
+                                },
+                                {
+                                    "Name": "Troop Cost Reimbursement - Military Contingents",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Daily Allowance - Military Contingents",
+                                    "Disbursement": 30301716
+                                },
+                                {
+                                    "Name": "Recreational Leave Allowance - Military Contingents",
+                                    "Disbursement": 16465321.89
+                                },
+                                {
+                                    "Name": "Rations - Military Contingents",
+                                    "Disbursement": 170612927.09
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Civilian Police",
+                            "Id": 213,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Civilian Police",
+                                    "Disbursement": 241204783.56
+                                },
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Civilian Police",
+                                    "Disbursement": 6092165.77
+                                },
+                                {
+                                    "Name": "Clothing Allowance - Civilian Police",
+                                    "Disbursement": 763305.6
+                                },
+                                {
+                                    "Name": "Death and Disability Compensation - Civilian Police",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rations - Civilian Police",
+                                    "Disbursement": 156281.05
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Formed Police Units",
+                            "Id": 214,
+                            "Children": [
+                                {
+                                    "Name": "Travel on Emplacement, Rotation and Repatriation - Formed Police Units",
+                                    "Disbursement": 360697.5
+                                },
+                                {
+                                    "Name": "Recreational Leave Allowance - Formed Police Units",
+                                    "Disbursement": 1245396.14
+                                },
+                                {
+                                    "Name": "Rations - Formed Police Units",
+                                    "Disbursement": 12119178.14
+                                },
+                                {
+                                    "Name": "Daily Allowance - Formed Police Units",
+                                    "Disbursement": 1970543.59
+                                },
+                                {
+                                    "Name": "Formed Police Units Cost Reimbursement",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Death and Disability Compensation - Formed Police Units",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Contingent-owned equipment: Major equipment - Formed Police Units",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Freight and deployment of contingent-owned equipment-formed Police Units",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Civilian personnel",
+                    "Id": 22,
+                    "Children": [
+                        {
+                            "Name": "International Staff",
+                            "Id": 221,
+                            "Children": [
+                                {
+                                    "Name": "Temporary Posts - Professionals",
+                                    "Disbursement": 160395.09
+                                },
+                                {
+                                    "Name": "Temporary Posts - Post Adjustment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Temporary Posts - General Service",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Temporary Posts-Personal Transitional Allowance (PTA)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Temporary Posts Staff Assessment - General Service",
+                                    "Disbursement": -721.58
+                                },
+                                {
+                                    "Name": "Temporary Posts Staff Assessment - Professional",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Night Differential",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Payment of Compensatory Time",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Overtime",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Overtime and Night Differential Staff Assessment - General Service",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Overtime and Night Differential Staff Assessment - Professional",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Dependency Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Assignment Allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Representation Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Hardship and Mobility Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental Subsidy",
+                                    "Disbursement": -49608.01
+                                },
+                                {
+                                    "Name": "Hazardous Duty Station Allowance",
+                                    "Disbursement": 4994.66
+                                },
+                                {
+                                    "Name": "Contributions to JSPF",
+                                    "Disbursement": 4129.57
+                                },
+                                {
+                                    "Name": "International Staff - Non-family duty station hardship entitlement",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff - Education Grants",
+                                    "Disbursement": 10070.25
+                                },
+                                {
+                                    "Name": "Danger Pay Special Allowance",
+                                    "Disbursement": 18717926.23
+                                },
+                                {
+                                    "Name": "Appointment - Assignment Grant",
+                                    "Disbursement": 18075369.31
+                                },
+                                {
+                                    "Name": "Other Cost of Appointment",
+                                    "Disbursement": 804873.61
+                                },
+                                {
+                                    "Name": "Special payment (Management Evaluation Unit)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment (United Nations Dispute Tribunal)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment (United Nations Appeals Tribunal)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Commutation of Annual Leave",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Repatriation Grants",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Termination Indemnities",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Other Separation Costs",
+                                    "Disbursement": 30482.51
+                                },
+                                {
+                                    "Name": "Separation Staff Assessment - General Service",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Separation Staff Assessment - Professional",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Peacekeeping Reserve for Compensation Payments - International Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special Claims",
+                                    "Disbursement": 7241.56
+                                },
+                                {
+                                    "Name": "Taxi Fares",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Medical Examinations",
+                                    "Disbursement": 15750.59
+                                },
+                                {
+                                    "Name": "Compensation claim for loss or damage of personal effects",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Residential Security measures - GTA",
+                                    "Disbursement": 9119830.59
+                                },
+                                {
+                                    "Name": "Mission Subsistence Allowance - International Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Contributions to medical insurance plans",
+                                    "Disbursement": 2.02
+                                },
+                                {
+                                    "Name": "After-Service Medical Coverage",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance - Hazardous duty station",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Reimbursement of Income Taxes - Extrabudgetary Funds",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Ex-gratia Payments - International Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Education Grant Travel",
+                                    "Disbursement": 1779257.26
+                                },
+                                {
+                                    "Name": "Home Leave Travel",
+                                    "Disbursement": 8346489.5
+                                },
+                                {
+                                    "Name": "Family Visit Travel",
+                                    "Disbursement": 3901983.4
+                                },
+                                {
+                                    "Name": "Travel on Appointment",
+                                    "Disbursement": 8003269.97
+                                },
+                                {
+                                    "Name": "Travel on Interview - Appointment",
+                                    "Disbursement": 208
+                                },
+                                {
+                                    "Name": "Travel for Competitive Exam",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Separation",
+                                    "Disbursement": 6186513.27
+                                },
+                                {
+                                    "Name": "Family Evacuation Travel",
+                                    "Disbursement": 533960.4
+                                },
+                                {
+                                    "Name": "Travel on Transfer",
+                                    "Disbursement": 224626.6
+                                },
+                                {
+                                    "Name": "Travel on Mission Assignment",
+                                    "Disbursement": 1612848.23
+                                },
+                                {
+                                    "Name": "Travel on Medical Evacuation",
+                                    "Disbursement": 282536.71
+                                },
+                                {
+                                    "Name": "Travel on Annual Leave from Designated Duty Stations",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "International Staff - Rest & Recuperation Travel allowance",
+                                    "Disbursement": 442670.35
+                                },
+                                {
+                                    "Name": "Removal of Household Effects - On appointment",
+                                    "Disbursement": 1045428.99
+                                },
+                                {
+                                    "Name": "Insurance on Shipment of Household Effects - On Appointment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Removal of Household Effects - On separation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance of Household Effects - On separation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Removal of Household Efects - On transfer",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Insurance of Household Effects - On transfer",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Recovery, funeral and other service charges - International staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment Charges - International Staff",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "National Staff",
+                            "Id": 222,
+                            "Children": [
+                                {
+                                    "Name": "Temporary Posts - General Service - National Staff",
+                                    "Disbursement": 177202226.38
+                                },
+                                {
+                                    "Name": "Temporary Posts - Professional - National Staff",
+                                    "Disbursement": 18789334.46
+                                },
+                                {
+                                    "Name": "Staff Assessment - Professional - National Staff",
+                                    "Disbursement": -3777282.23
+                                },
+                                {
+                                    "Name": "Staff assessment - General Service - National Staff",
+                                    "Disbursement": -36535321.12
+                                },
+                                {
+                                    "Name": "Overtime - General Service - National Staff",
+                                    "Disbursement": 808523.14
+                                },
+                                {
+                                    "Name": "Dependency Allowance - National Staff",
+                                    "Disbursement": 11762808.39
+                                },
+                                {
+                                    "Name": "Assignment Allowance - National Staff",
+                                    "Disbursement": 17422.9
+                                },
+                                {
+                                    "Name": "Hazardous Duty Station Allowance - National Staff",
+                                    "Disbursement": 915.9
+                                },
+                                {
+                                    "Name": "Contribution to JSPF - National Staff",
+                                    "Disbursement": 28073490.05
+                                },
+                                {
+                                    "Name": "Danger Pay Special Allowance - National staff",
+                                    "Disbursement": 12134253.13
+                                },
+                                {
+                                    "Name": "Commutation of Annual Leave - National Staff",
+                                    "Disbursement": 420711.44
+                                },
+                                {
+                                    "Name": "Other Separation Costs - National Staff",
+                                    "Disbursement": 997055.12
+                                },
+                                {
+                                    "Name": "Medical Examinations - National Staff",
+                                    "Disbursement": 30782.55
+                                },
+                                {
+                                    "Name": "Residential Security Measures - National Staff",
+                                    "Disbursement": 448.81
+                                },
+                                {
+                                    "Name": "Special Claims - National Staff",
+                                    "Disbursement": 5794.89
+                                },
+                                {
+                                    "Name": "Peacekeeping Reserve for Compensation Payments - National Staff",
+                                    "Disbursement": 861314.73
+                                },
+                                {
+                                    "Name": "Contributions to Medical Insurance Plans - National Staff",
+                                    "Disbursement": 9253921.25
+                                },
+                                {
+                                    "Name": "After-Service Medical Coverage - National Staff",
+                                    "Disbursement": 135257.16
+                                },
+                                {
+                                    "Name": "Insurance - Hazardous Duty Station",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment (Management Evaluation Unit)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment - UN Dispute Tribunal",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Special payment  UN Appeals Tribunal",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Appointment - National Staff",
+                                    "Disbursement": 461
+                                },
+                                {
+                                    "Name": "Travel on Medical Evacuation - National Staff",
+                                    "Disbursement": 115596.07
+                                },
+                                {
+                                    "Name": "Recovery, Funeral and other service charges - National staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment Charges - National Staff",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "United Nations Volunteer",
+                            "Id": 223,
+                            "Children": [
+                                {
+                                    "Name": "Administrative fee - UNV",
+                                    "Disbursement": 247230.61
+                                },
+                                {
+                                    "Name": "Pre-Departure Expenses and Support Staff - UNV",
+                                    "Disbursement": 462998.24
+                                },
+                                {
+                                    "Name": "Volunteer Living Allowance/SIGPLUS - UNV",
+                                    "Disbursement": 64110881.2
+                                },
+                                {
+                                    "Name": "Hazard Allowance - UNV",
+                                    "Disbursement": 4685083.51
+                                },
+                                {
+                                    "Name": "Resettlement Allowance - UNV",
+                                    "Disbursement": 1533644.69
+                                },
+                                {
+                                    "Name": "Travel on Repatriation - UNV",
+                                    "Disbursement": 2427865.74
+                                },
+                                {
+                                    "Name": "United Nations Volunteers - Rest & Recuperation Travel allowance",
+                                    "Disbursement": 207228.79
+                                },
+                                {
+                                    "Name": "Recovery, funeral and other service charges - United Nations Volunteer",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "General Temporary Assistance",
+                            "Id": 224,
+                            "Children": [
+                                {
+                                    "Name": "General Temporary Assistance - Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - Common Staff Costs",
+                                    "Disbursement": 77245.77
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - General Service",
+                                    "Disbursement": -1172.5
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - Professional",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Salaries",
+                                    "Disbursement": 8078673.59
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Common staff costs",
+                                    "Disbursement": 2059193.16
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff - staff assessment",
+                                    "Disbursement": -1616529.19
+                                },
+                                {
+                                    "Name": "General Temporary Assistance-Other Personnel-Salaries",
+                                    "Disbursement": 449423.31
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - National-Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Danger Pay Special Allowance - GTA",
+                                    "Disbursement": 493094.59
+                                },
+                                {
+                                    "Name": "Danger pay GTA - National Staff",
+                                    "Disbursement": 348909.38
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - Intl Personal Transitional Allowance (PTA)",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - MSA",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - Hazard Allowances",
+                                    "Disbursement": 11710
+                                },
+                                {
+                                    "Name": "International Staff - GTA Non-family duty station hardship allowance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "International Staff - GTA Rest & Recuperation Travel allowance",
+                                    "Disbursement": 18496
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance-National",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Operational costs",
+                    "Id": 23,
+                    "Children": [
+                        {
+                            "Name": "General Temporary Assistance",
+                            "Id": 231,
+                            "Children": [
+                                {
+                                    "Name": "General Temporary Assistance - Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - Common Staff Costs",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - General Service",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - Professional",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff Common staff costs",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance National Staff - staff assessment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance-Other Personnel-Salaries",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - National-Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - MSA",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "General Temporary Assistance - International - Hazard Allowances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Staff Assessment - General Temporary Assistance-National",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Government Provided Personnel",
+                            "Id": 232,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Government Provided Personnel",
+                                    "Disbursement": 12312315.4
+                                },
+                                {
+                                    "Name": "Travel on Assignment/Repatriation - Government Provided Personnel",
+                                    "Disbursement": 116492.44
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Civilian Electoral Observers",
+                            "Id": 233,
+                            "Children": [
+                                {
+                                    "Name": "Mission Subsistence Allowance - Government Provided Personnel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Mission Subsistence Allowance - Civilian Electoral Observers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Assignment/Repatriation - Government Provided Personnel",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel on Assignment/Repatriation - Civilian Electoral Observers",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Consultants",
+                            "Id": 234,
+                            "Children": [
+                                {
+                                    "Name": "Personal Service Fees - Consultants",
+                                    "Disbursement": 557398.11
+                                },
+                                {
+                                    "Name": "Lump-sum Provision - Consultants",
+                                    "Disbursement": 1546107.16
+                                },
+                                {
+                                    "Name": "Training Consultants",
+                                    "Disbursement": 467345.5
+                                },
+                                {
+                                    "Name": "Peacekeeping Reserve for Compensation Payments - Consultants",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Assignment/Repatriation Travel and Subsistence Allowance - Consultants",
+                                    "Disbursement": 228623.77
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Official Travel",
+                            "Id": 235,
+                            "Children": [
+                                {
+                                    "Name": "Travel for Consultation and Meetings",
+                                    "Disbursement": 403525.99
+                                },
+                                {
+                                    "Name": "Travel for Inspection of Contingents",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Internal Audit",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Procurement",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Reconnaissance/Technical Survey",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel for Training",
+                                    "Disbursement": 4772305.66
+                                },
+                                {
+                                    "Name": "Travel of Legislative Bodies",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Travel to Provide Technical Support",
+                                    "Disbursement": 1433
+                                },
+                                {
+                                    "Name": "Travel within Mission",
+                                    "Disbursement": 14833871.47
+                                },
+                                {
+                                    "Name": "Other Official Travel",
+                                    "Disbursement": 6228792.36
+                                },
+                                {
+                                    "Name": "Travel for Selection and Assistance to Member States - Civilian Police",
+                                    "Disbursement": 132055.01
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Facilities and Infrastructure",
+                            "Id": 236,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Catering",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Office",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Electrical",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Minor Engineering",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Laundry and Cleaning",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Tentage",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Accommodation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Identification",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Field Defence Stores",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Miscellaneous General Stores",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Basic fire fighting, fire detection and alarm",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Internet access",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Cleaning",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Engineering Technical Support Services - Facilities and Infrastructure",
+                                    "Disbursement": 3207.25
+                                },
+                                {
+                                    "Name": "Security Services",
+                                    "Disbursement": 21433804.81
+                                },
+                                {
+                                    "Name": "Catering Services",
+                                    "Disbursement": 1302205.56
+                                },
+                                {
+                                    "Name": "Laundry, Tailoring",
+                                    "Disbursement": 392776.85
+                                },
+                                {
+                                    "Name": "Liability Insurance - Facilities and Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental of Premises",
+                                    "Disbursement": 21419303.15
+                                },
+                                {
+                                    "Name": "Maintenance Supplies - Facilities and Infrastructure",
+                                    "Disbursement": 6632663.76
+                                },
+                                {
+                                    "Name": "Cleaning Services",
+                                    "Disbursement": 7586922.23
+                                },
+                                {
+                                    "Name": "Waste Disposal Services",
+                                    "Disbursement": 3161331.15
+                                },
+                                {
+                                    "Name": "Miscellaneous Maintenance and Repair Services - Facilities and Infrastructure",
+                                    "Disbursement": 23149479.17
+                                },
+                                {
+                                    "Name": "Grounds Maintenance Services - Facilities and Infrastructure",
+                                    "Disbursement": 257393.93
+                                },
+                                {
+                                    "Name": "Alteration and Renovation - Facilities and Infrastructure",
+                                    "Disbursement": 4471604
+                                },
+                                {
+                                    "Name": "Construction Services - Facilities and Infrastructures",
+                                    "Disbursement": 22969762.84
+                                },
+                                {
+                                    "Name": "Electricity",
+                                    "Disbursement": 14542230.1
+                                },
+                                {
+                                    "Name": "Water",
+                                    "Disbursement": 1881602.54
+                                },
+                                {
+                                    "Name": "Other Utilities",
+                                    "Disbursement": 135699.9
+                                },
+                                {
+                                    "Name": "Acquisition of Prefabricated Facilities",
+                                    "Disbursement": 2354779.51
+                                },
+                                {
+                                    "Name": "Petrol, Oil, Lubricants - Facilities and Infrastructure",
+                                    "Disbursement": 144107210.86
+                                },
+                                {
+                                    "Name": "Acquisition of Miscellaneous Facilities and Infrastructure",
+                                    "Disbursement": 479997.2
+                                },
+                                {
+                                    "Name": "Acquisition of Bridges for Infrastructure",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental of Office Equipment",
+                                    "Disbursement": 3226820.73
+                                },
+                                {
+                                    "Name": "Spare Parts and Supplies - Facilities and Infrastructure",
+                                    "Disbursement": 3719468.58
+                                },
+                                {
+                                    "Name": "Acquisition of Office Furniture",
+                                    "Disbursement": 812855.03
+                                },
+                                {
+                                    "Name": "Acquisition of Office Equipment",
+                                    "Disbursement": 231004.35
+                                },
+                                {
+                                    "Name": "Acquisition of Accommodation Equipment",
+                                    "Disbursement": 1511474.77
+                                },
+                                {
+                                    "Name": "Acquisition of Electrical Equipment",
+                                    "Disbursement": 282283.8
+                                },
+                                {
+                                    "Name": "Acquisition of Field Defense Supplies",
+                                    "Disbursement": 16416236.45
+                                },
+                                {
+                                    "Name": "Acquisition of Fire Fighting Equipment",
+                                    "Disbursement": 132402.41
+                                },
+                                {
+                                    "Name": "Acquisition of Refrigeration equipment",
+                                    "Disbursement": 515206.72
+                                },
+                                {
+                                    "Name": "Acquisition of Fuel Tank and pumps",
+                                    "Disbursement": 17752.84
+                                },
+                                {
+                                    "Name": "Acquisition of Generators",
+                                    "Disbursement": 1921917.14
+                                },
+                                {
+                                    "Name": "Acquisition of Security and Safety Equipment",
+                                    "Disbursement": 394095.88
+                                },
+                                {
+                                    "Name": "Acquisition of Water Purification Equipment",
+                                    "Disbursement": 2217896.47
+                                },
+                                {
+                                    "Name": "Acquisition of Water and Septic Tank",
+                                    "Disbursement": 1499888.13
+                                },
+                                {
+                                    "Name": "Aquisition of Field Defense Equipment",
+                                    "Disbursement": 34665.36
+                                },
+                                {
+                                    "Name": "Residential Security for Military Observers",
+                                    "Disbursement": 1028287.53
+                                },
+                                {
+                                    "Name": "Residential Security for Military Staff Officers",
+                                    "Disbursement": 469124.42
+                                },
+                                {
+                                    "Name": "Residential Security for UN Police",
+                                    "Disbursement": 3808634.99
+                                },
+                                {
+                                    "Name": "Residential Security for Government Provided Personnel",
+                                    "Disbursement": 124409
+                                },
+                                {
+                                    "Name": "Stationery and Office Supplies",
+                                    "Disbursement": 1077166.9
+                                },
+                                {
+                                    "Name": "Sanitary and Cleaning Materials",
+                                    "Disbursement": 699144.65
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Ground Transportation",
+                            "Id": 237,
+                            "Children": [
+                                {
+                                    "Name": "Liability Insurance - Ground Transportation",
+                                    "Disbursement": 1113447.81
+                                },
+                                {
+                                    "Name": "Rental of Vehicles (PK)",
+                                    "Disbursement": 2808951.81
+                                },
+                                {
+                                    "Name": "Spare Parts - Ground Transportation",
+                                    "Disbursement": 7028022.25
+                                },
+                                {
+                                    "Name": "Repairs and Maintenance - Ground Transportation",
+                                    "Disbursement": 5922128.12
+                                },
+                                {
+                                    "Name": "Acquisition of Ambulances",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Buses",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Forklifts and Cargo Handlers",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Passenger, 4WD, Pickups",
+                                    "Disbursement": 812.36
+                                },
+                                {
+                                    "Name": "Acquisition of Vehicle Workshop Equipment",
+                                    "Disbursement": 50147.2
+                                },
+                                {
+                                    "Name": "Acquisition of Other Vehicles",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Petrol, Oil and Lubricant - Ground Transportation",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Air Transportation",
+                            "Id": 238,
+                            "Children": [
+                                {
+                                    "Name": "Services - Air Transportation",
+                                    "Disbursement": 11976085.54
+                                },
+                                {
+                                    "Name": "Liability Insurance - Helicopters",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Liability Insurance - Fixed Wing Aircraft",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental and Operation of Fixed-Wing Aircraft",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental and Operation of Helicopters",
+                                    "Disbursement": -7275.38
+                                },
+                                {
+                                    "Name": "Equipment and Supplies - Air Transportation",
+                                    "Disbursement": 92154.18
+                                },
+                                {
+                                    "Name": "Landing Fees and Ground Handling Charges - Air Transportation",
+                                    "Disbursement": 3058622.4
+                                },
+                                {
+                                    "Name": "Air Crew Subsistence Allowance - Air Transportation",
+                                    "Disbursement": 1980260.61
+                                },
+                                {
+                                    "Name": "Petrol, Oil, Lubricants - Air Transportation",
+                                    "Disbursement": 101168979.59
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Naval Transportation",
+                            "Id": 239,
+                            "Children": [
+                                {
+                                    "Name": "Liability Insurance - Naval Transportation",
+                                    "Disbursement": 1923.3
+                                },
+                                {
+                                    "Name": "Rental and Operation - Naval Transportation",
+                                    "Disbursement": 3652448.56
+                                },
+                                {
+                                    "Name": "Spare Parts, Repairs, Maintenance and Supplies - Naval Transportation",
+                                    "Disbursement": 192736.13
+                                },
+                                {
+                                    "Name": "Acquisition of Marine Vessels - Naval Transportation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Petrol, Oil, Lubricants - Naval Transportation",
+                                    "Disbursement": 1377201
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Communications",
+                            "Id": 2310,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Communications",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Services - Public Information",
+                                    "Disbursement": 10179087.15
+                                },
+                                {
+                                    "Name": "Rental of Communications Equipment",
+                                    "Disbursement": 292.64
+                                },
+                                {
+                                    "Name": "Rental of Public Information Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Commercial Communications",
+                                    "Disbursement": 10149793.06
+                                },
+                                {
+                                    "Name": "Communications Support Services",
+                                    "Disbursement": 8089613.99
+                                },
+                                {
+                                    "Name": "Maintenance Communications Equipment",
+                                    "Disbursement": 419835.14
+                                },
+                                {
+                                    "Name": "Supplies and Maintenance - Public Information",
+                                    "Disbursement": 240191.72
+                                },
+                                {
+                                    "Name": "Acquisition of Public Information Equipment",
+                                    "Disbursement": 273486.7
+                                },
+                                {
+                                    "Name": "Acquisition of Communications Equipment",
+                                    "Disbursement": 6536967.18
+                                },
+                                {
+                                    "Name": "Spare Parts for Communications Equipment",
+                                    "Disbursement": 3253739.69
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Information Technology",
+                            "Id": 2311,
+                            "Children": [
+                                {
+                                    "Name": "Services - IT",
+                                    "Disbursement": 6591622.26
+                                },
+                                {
+                                    "Name": "Rental - IT Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Spare Parts and Supplies - IT Equipment",
+                                    "Disbursement": 3448146.24
+                                },
+                                {
+                                    "Name": "Acquisition, Software Packages",
+                                    "Disbursement": 516001.94
+                                },
+                                {
+                                    "Name": "Acquisition of IT Equipment",
+                                    "Disbursement": 4285653.22
+                                },
+                                {
+                                    "Name": "IT Licenses, Fees and Rental Software - IT",
+                                    "Disbursement": 145729.18
+                                },
+                                {
+                                    "Name": "Maintenance and Repair - IT Equipment",
+                                    "Disbursement": 5180.06
+                                },
+                                {
+                                    "Name": "ERP",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Spare Parts for Communications Equipment",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Medical",
+                            "Id": 2312,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Medical",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rental of Medical Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Medical Services",
+                                    "Disbursement": 5988811.84
+                                },
+                                {
+                                    "Name": "Acquisition of Clinic, Hospital Equipment",
+                                    "Disbursement": 26724.16
+                                },
+                                {
+                                    "Name": "Medical Supplies",
+                                    "Disbursement": 1683255.67
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Special Equipment",
+                            "Id": 2313,
+                            "Children": [
+                                {
+                                    "Name": "COE: Self-sustainment - Explosive Ordnance Disposal",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Observation",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Nuclear, Biological, and Chemical Protection",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "COE: Self-sustainment - Unique Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Binoculars and Observation Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Other Equipment",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Mine Detection and Mine Clearing Equipment",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Other Supplies, Services and Equipment",
+                            "Id": 2314,
+                            "Children": [
+                                {
+                                    "Name": "General Temporary Assistance Staff Assessment - General Service",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Ex-gratia Payments",
+                                    "Disbursement": 2601.17
+                                },
+                                {
+                                    "Name": "After-Service Medical Coverage",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Training Fees, Supplies and Services",
+                                    "Disbursement": 2440173.96
+                                },
+                                {
+                                    "Name": "Conference costs -UN sponsored conferences",
+                                    "Disbursement": 698990.27
+                                },
+                                {
+                                    "Name": "External Audit",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Haircutting/Barber Services",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Official Functions",
+                                    "Disbursement": 126689.47
+                                },
+                                {
+                                    "Name": "Other Hospitality",
+                                    "Disbursement": 30500.3
+                                },
+                                {
+                                    "Name": "General Insurance",
+                                    "Disbursement": 60374.21
+                                },
+                                {
+                                    "Name": "Bank Charges",
+                                    "Disbursement": 11756208.72
+                                },
+                                {
+                                    "Name": "Miscellaneous Claims and Adjustments",
+                                    "Disbursement": 119670.34
+                                },
+                                {
+                                    "Name": "Other Miscellaneous Services",
+                                    "Disbursement": 6758253.22
+                                },
+                                {
+                                    "Name": "Other Freight and Related Costs",
+                                    "Disbursement": 27549862.74
+                                },
+                                {
+                                    "Name": "Losses in Cash",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Write-off of Receivables within Delegated Authority",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Write-off of Receivable beyond Delegated Authority",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Acquisition of Other Equipment",
+                                    "Disbursement": 706428.32
+                                },
+                                {
+                                    "Name": "Mine Detection and Mine Clearing Services",
+                                    "Disbursement": 65.86
+                                },
+                                {
+                                    "Name": "Mine Detection and Mine Clearing Supplies",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Subscriptions, Standing Orders",
+                                    "Disbursement": 700039.68
+                                },
+                                {
+                                    "Name": "Printing and Reproduction",
+                                    "Disbursement": 598196.84
+                                },
+                                {
+                                    "Name": "Operational Maps",
+                                    "Disbursement": 6977.32
+                                },
+                                {
+                                    "Name": "Training Supplies and Exhibits",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Uniforms, Flags, Decals",
+                                    "Disbursement": 522348.49
+                                },
+                                {
+                                    "Name": "Election Materials",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Rations",
+                                    "Disbursement": -139.54
+                                },
+                                {
+                                    "Name": "Personal Protection Gear",
+                                    "Disbursement": 153555.46
+                                },
+                                {
+                                    "Name": "Welfare - Military Contingents and Formed Police Units",
+                                    "Disbursement": 157027.67
+                                },
+                                {
+                                    "Name": "Rations - Other",
+                                    "Disbursement": 3137960.19
+                                },
+                                {
+                                    "Name": "Programme Support Costs - UNDP country office cost recovery",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Loss on exchange",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Quick-impact Projects",
+                            "Id": 2315,
+                            "Children": [
+                                {
+                                    "Name": "Quick-impact projects",
+                                    "Disbursement": 2244672.2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Pro-rated Costs",
+                    "Id": 24,
+                    "Children": [
+                        {
+                            "Name": "Pro-Rated Costs",
+                            "Id": 241,
+                            "Children": [
+                                {
+                                    "Name": "Prorated share of the cost of staff assessment for UNLB",
+                                    "Disbursement": 1793.76
+                                },
+                                {
+                                    "Name": "Prorated share-cost of staff assessment for Peacekeeping operations Support acct",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Programme Support Costs - Support Account",
+                                    "Disbursement": 0
+                                },
+                                {
+                                    "Name": "Programme Support Costs - UNLB",
+                                    "Disbursement": 0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
