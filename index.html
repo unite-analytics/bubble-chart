@@ -1,265 +1,274 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>User Data</title>
-	<style>
-	
-		body{
-			font-family: Arial;
+    <style>
 
-		}
-		
-		tspan#spval
-		{
-			font-family: Arial;
-			background-color : transparent;			
-			font-size : 16px;
-			font-weight : bold;
-			fill : #444444;
-		}
+        body{
+            font-family: Arial;
 
-		tspan#spcatagory
-		{
-			font-family: Arial;
-			background-color : transparent;			
-			font-size : 14px;
-			fill : #999999;
-		}
-		
-	  .chart-title{
-			font-family: Arial;
-			background-color : transparent;			
-			font-size : 16px;		
-	  }
-	  .chart-title-catagory{
-			color : #666666;
-			font-size : 14px;
-	  }
-	  
-	  .chart-title-cost{					
-			font-weight : bold;
-			color : #222222;
-	  }
-	  
-	  #jay-tooltipContainer {
-		  position: absolute;
-		  bottom: 0;
-		  width: 230px;
-		  left: -125px;
-		  font-size: 12px;
-		  line-height: 16px;
-		  padding: 10px;
-		  border-radius: 3px;
-		  background: rgba(255,255,255,0.9);
-		  color: #000;
-		  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
-		  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);  
-		  border:1px solid rgba(200,200,200,0.85);
-		  text-align:center;
-		}
+        }
 
-		#jay-tooltip {
-		 text-align:center;  
-		  z-index: 1000;
-		  position: absolute;
-		  display: none;
-		}
+        tspan#spval
+        {
+            font-family: Arial;
+            background-color : transparent;
+            font-size : 16px;
+            font-weight : bold;
+            fill : #444444;
+        }
 
-		#jay-tooltip .jay-tail {
-		  position: absolute;
-		  bottom: -8px;
-		  left: 105px;
-		  width: 40px;
-		  height: 8px;
-		  background: url(img/tail_white.png) 50% 0%;
-		}
-		#jay-tooltip .jay-department {
-		  text-transform: uppercase;
-		  text-align: left;
-		  font-size: 10px;
-		  margin-bottom: 2px;
-		  color:#666;
-		  text-align:center;  
+        tspan#spcatagory
+        {
+            font-family: Arial;
+            background-color : transparent;
+            font-size : 14px;
+            fill : #999999;
+        }
 
-		}
-		#jay-tooltip .jay-rule{
-		  height:1px;
-		  margin:1px auto 3px;
-		  background:#ddd;
-		  width:130px;
-		}
+        .chart-title{
+            font-family: Arial;
+            background-color : transparent;
+            font-size : 16px;
+        }
+        .chart-title-catagory{
+            color : #666666;
+            font-size : 14px;
+        }
 
-		#jay-tooltip .jay-discretion{
-		  color:#666;
-		/*   text-transform:uppercase;*/
-		  font-size: 11px;   
-		  text-align:center;  
-		  font-style:italic;
-		}
-		#jay-tooltip .jay-name {
-		  text-align: left;
-		  font-size: 13px;
-		/*  width:170px;*/
-		 text-align:center;  
-		}
-		#jay-tooltip .jay-value {
-		/*  position:absolute;*/
-		 text-align:center;
-		  right:10px;
-		  top:28px;
-		  font-size: 16px;
-		/*  width:100px;*/
-		 text-align:center;  
-		  overflow:hidden;
-		  font-weight:bold;
-		}
-		#jay-tooltip .jay-change {
-		  padding-left:10px;
-		/*  width:110px;  */
-		  font-size: 16px;  
-		  text-align:right;  
-		  overflow:hidden;
-		/*  position:absolute;*/
-		  font-weight:bold;  
-		  color:#666;
-		 text-align:center;  
-		 display:inline;
-		}
-		#jay-tooltip .jay-valuesContainer {
-		  padding-top:7px;
-		  
-		}
-		#jay-tooltip.jay-minus .jay-change{
-		  color:#900;
-		}
-		#jay-tooltip.jay-plus .jay-change{
-		  color:#090;
-		}
-		
-		/* Navigation */
-		.nytg-navBar {
-		  border-top: solid 1px #DDD;
-		  padding: 15px 0 0;
-		  margin: 0 10px;
-		  z-index: 100;
-		  position: absolute;
-		  width: 950px;
-		}
+        .chart-title-cost{
+            font-weight : bold;
+            color : #222222;
+        }
+
+        #jay-tooltipContainer {
+            position: absolute;
+            bottom: 0;
+            width: 230px;
+            left: -125px;
+            font-size: 12px;
+            line-height: 16px;
+            padding: 10px;
+            border-radius: 3px;
+            background: rgba(255,255,255,0.9);
+            color: #000;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+            border:1px solid rgba(200,200,200,0.85);
+            text-align:center;
+        }
+
+        #jay-tooltip {
+            text-align:center;
+            z-index: 1000;
+            position: absolute;
+            display: none;
+        }
+
+        #jay-tooltip .jay-tail {
+            position: absolute;
+            bottom: -8px;
+            left: 105px;
+            width: 40px;
+            height: 8px;
+            background: url(img/tail_white.png) 50% 0%;
+        }
+        #jay-tooltip .jay-department {
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 10px;
+            margin-bottom: 2px;
+            color:#666;
+            text-align:center;
+
+        }
+        #jay-tooltip .jay-rule{
+            height:1px;
+            margin:1px auto 3px;
+            background:#ddd;
+            width:130px;
+        }
+
+        #jay-tooltip .jay-discretion{
+            color:#666;
+            /*   text-transform:uppercase;*/
+            font-size: 11px;
+            text-align:center;
+            font-style:italic;
+        }
+        #jay-tooltip .jay-name {
+            text-align: left;
+            font-size: 13px;
+            /*  width:170px;*/
+            text-align:center;
+        }
+        #jay-tooltip .jay-value {
+            /*  position:absolute;*/
+            text-align:center;
+            right:10px;
+            top:28px;
+            font-size: 16px;
+            /*  width:100px;*/
+            text-align:center;
+            overflow:hidden;
+            font-weight:bold;
+        }
+        #jay-tooltip .jay-change {
+            padding-left:10px;
+            /*  width:110px;  */
+            font-size: 16px;
+            text-align:right;
+            overflow:hidden;
+            /*  position:absolute;*/
+            font-weight:bold;
+            color:#666;
+            text-align:center;
+            display:inline;
+        }
+        #jay-tooltip .jay-valuesContainer {
+            padding-top:7px;
+
+        }
+        #jay-tooltip.jay-minus .jay-change{
+            color:#900;
+        }
+        #jay-tooltip.jay-plus .jay-change{
+            color:#090;
+        }
+
+            /* Navigation */
+        .nytg-navBar {
+            border-top: solid 1px #DDD;
+            padding: 15px 0 0;
+            margin: 0 10px;
+            z-index: 100;
+            position: absolute;
+            width: 950px;
+        }
 
 
-		.nytg-navigation {
-		  
-		}
-		.nytg-navigation li {
-		  color: #999;
-		  font-size: 14px;
-		  cursor: pointer;
-		  float: left;
-		  padding: 10px 18px;
-		  border-top: solid 1px #CCC;
-		  border-bottom: solid 1px #CCC;
-		  border-left: solid 1px #CCC;
-		  background: #f9f9f9;
-		  margin: 0 0;
-		}
+        .nytg-navigation {
 
-		.nytg-navigation li:first-of-type{
-		  border-radius: 4px 0 0 4px;
-		}
-		.nytg-navigation li:last-of-type{
+        }
+        .nytg-navigation li {
+            color: #999;
+            font-size: 14px;
+            cursor: pointer;
+            float: left;
+            padding: 10px 18px;
+            border-top: solid 1px #CCC;
+            border-bottom: solid 1px #CCC;
+            border-left: solid 1px #CCC;
+            background: #f9f9f9;
+            margin: 0 0;
+        }
 
-		  border-right: solid 1px #CCC;
-		  border-radius: 0 4px 4px 0;
-		}
-		.nytg-navigation li.selected {
-		  color: #000;
-		  background: #e9e9e9;
-		  border-color: #AAA;
-		  box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
-		}
-	
-		ul {
-		  list-style: none;
-		  padding-left: 0;
-		}
+        .nytg-navigation li:first-of-type{
+            border-radius: 4px 0 0 4px;
+        }
+        .nytg-navigation li:last-of-type{
 
-		
-		
-	</style>
-	
-  </head>
-  <body>
-    <!-- <H1>Bubble Chart</H1> -->
-	<script type="text/javascript" src="d3.v3/d3.v3.js"></script>
-    <script type="text/javascript" src="d3.v3/d3.geom.js"></script>
-    <script type="text/javascript" src="d3.v3/d3.layout.js"></script>
-	<script src="d3.v3/d3.v3.min.js"></script>
-	<script src="clsBubbleChart.js"></script>
-	<script src="customer-data-chart.js"></script>
-	
-    <table>
-		<tr>
-			<td>
-				<!-- HTML element where Navigation menu will be rendered -->
-				<div id='div-level-btn-cntnr'>
-					<ul class="nytg-navigation clearfix" id='div-level-btn-cntnr-list'></ul>
-				</div>
-				<table style="font-size : 12px;color : #999999;padding-top:15px;" cellspacing="3" >
-					<tr>
-						<td style="border-bottom : 1px solid #999999;"></td>
-						<td style="padding-right: 5px;padding-left: 5px;border-bottom : 1px solid #999999;">HQ Cost Center</td>
-						<td style="padding-right: 5px;padding-left: 5px;border-bottom : 1px solid #999999;">Field Cost Center</td>
-					</tr>
-					<tr>
-						<td style=" padding-right: 5px;">Military and police personnel</td>
-						<td style="background-color : #0F243E;"></td>
-						<td style="background-color : #4F6128"></td>
-					</tr>
-					<tr>
-						<td>Civilian personnel</td>
-						<td style="background-color : #17365D"></td>
-						<td style="background-color : #76923C"></td>
-					</tr>
-					<tr>
-						<td>Operational costs</td>
-						<td style="background-color : #548DD4"></td>
-						<td style="background-color : #C3D69B"></td>
-					</tr>
-					<tr>
-						<td>Pro-rated Costs</td>
-						<td style="background-color : #8DB3E2"></td>
-						<td style="background-color : #D7E3BC"></td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<!-- HTML element where SVG will be rendered -->
-				<div class='div-svg-cntnr'></div>
-			</td>
-		</tr>
-	</table>
-	
-	
-	
-	
-	<!-- Tool tip object (displayed when user hovers a data bubble) -->
-	<div id="jay-tooltip">
-		<div id="jay-tooltipContainer">
-			<div class="jay-department"></div>
-			<div class="jay-rule"></div>
-			<div class="jay-name"></div>
-			<div class="jay-discretion"></div>
-			<div class="jay-valuesContainer">
-				<span class="jay-value"></span>
-				<span class="jay-change"></span>
-				<div id="jay-tooltip-cstm-txt"></div>
-			</div>
-			<div class="jay-chart"></div>
-			<div class="jay-tail"></div>
-		</div>
-	</div>
-	
-  </body>
+            border-right: solid 1px #CCC;
+            border-radius: 0 4px 4px 0;
+        }
+        .nytg-navigation li.selected {
+            color: #000;
+            background: #e9e9e9;
+            border-color: #AAA;
+            box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<!-- <H1>Bubble Chart</H1> -->
+
+<script src="http://underscorejs.org/underscore-min.js"></script>
+<script type="text/javascript" src="d3.v3/d3.v3.js"></script>
+<script type="text/javascript" src="d3.v3/d3.geom.js"></script>
+<script type="text/javascript" src="d3.v3/d3.layout.js"></script>
+<script src="d3.v3/d3.v3.min.js"></script>
+<script src="clsBubbleChart.js"></script>
+<script src="customer-data-chart.js"></script>
+
+<table>
+    <tr>
+        <td>
+            <!-- HTML element where Navigation menu will be rendered -->
+            <div id='div-level-btn-cntnr'>
+                <ul class="nytg-navigation clearfix" id='div-level-btn-cntnr-list'></ul>
+            </div>
+            <br />
+            <br />
+            <table style="font-size : 12px;color : #999999;padding-top:15px;" cellspacing="3" >
+                <tr>
+                    <td style="border-bottom : 1px solid #999999;"></td>
+                    <td style="padding-right: 5px;padding-left: 5px;border-bottom : 1px solid #999999;">Color</td>
+                    <!--<td style="padding-right: 5px;padding-left: 5px;border-bottom : 1px solid #999999;">Field Cost Center</td>-->
+                </tr>
+                <tr>
+                    <td style=" padding-right: 5px;">Age[15-30]</td>
+                    <td style="background-color : #6666A3;"></td>
+                    <!--<td style="background-color : #4F6128"></td>-->
+                </tr>
+                <tr>
+                    <td>Age[31-40]</td>
+                    <td style="background-color : #4D4D94"></td>
+                    <!--<td style="background-color : #76923C"></td>-->
+                </tr>
+                <tr>
+                    <td>Age[41-50]</td>
+                    <td style="background-color : #333385"></td>
+                    <!--<td style="background-color : #C3D69B"></td>-->
+                </tr>
+                <tr>
+                    <td>Age[51-60]</td>
+                    <td style="background-color : #191975"></td>
+                    <!--<td style="background-color : #D7E3BC"></td>-->
+                </tr>
+                <tr>
+                    <td>Age[60+]</td>
+                    <td style="background-color : #000066"></td>
+                    <!--<td style="background-color : #D7E3BC"></td>-->
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- HTML element where SVG will be rendered -->
+            <div class='div-svg-cntnr'></div>
+        </td>
+    </tr>
+</table>
+
+
+
+
+<!-- Tool tip object (displayed when user hovers a data bubble) -->
+<div id="jay-tooltip">
+    <div id="jay-tooltipContainer">
+        <div class="jay-department"></div>
+        <div class="jay-rule"></div>
+        <div class="jay-name"></div>
+        <div class="jay-discretion"></div>
+        <div class="jay-valuesContainer">
+            <span class="jay-value"></span>
+            <span class="jay-change"></span>
+            <div id="jay-tooltip-cstm-txt"></div>
+        </div>
+        <div class="jay-chart"></div>
+        <div class="jay-tail"></div>
+    </div>
+</div>
+
+</body>
 </html>
